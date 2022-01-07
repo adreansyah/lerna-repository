@@ -1,0 +1,14 @@
+{
+  "name": "@adreansyah/edts-bytes",
+  "version": "1.0.2",
+  "private": false,
+  "description": "",
+  "keywords": [],
+  "author": "adreansyah aswafi",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "2d6e7c6bc03fbcb961b6a4ff9050d15bf0a42fe0"
+}

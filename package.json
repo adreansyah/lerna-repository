@@ -1,0 +1,17 @@
+{
+  "name": "@adreansyah/inhouse",
+  "private": false,
+  "version": "1.0.0",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "postinstall": "npm --prefix packages/edts-tracker install",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna run --parallel clean",
+    "release": "lerna publish from-package --dist-tag latest"
+  }
+}
